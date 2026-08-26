@@ -7,8 +7,8 @@ import os
 
 #Получение пути к файлу
 pyt=Path(__file__).resolve().parent
-pytnew=pyt/'Данные'/'Информация прогресса'
-pytosob=pyt/'Данные'/'Переменные'
+pytnew=pyt/'Data'/'Progress information'
+pytosob=pyt/'Data'/'Variables'
 
 #Запись переменных в фаил
 osob={'kol': None, 'hearts': None, 'itog1': None, 'itog2': None}
