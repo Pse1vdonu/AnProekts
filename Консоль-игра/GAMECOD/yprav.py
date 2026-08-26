@@ -3,7 +3,7 @@ import msvcrt
 def yprav_res():
     pos=0
     if msvcrt.kbhit():
-        key = msvcrt.getch().decode('utf-8').lower()
+        key = msvcrt.getch().decode('cp866', errors='ignore').lower()
 
         if key=='a' or key=='ф':
             pos=-1
